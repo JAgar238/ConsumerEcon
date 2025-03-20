@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produce - SuperSaver Grocery</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+        header { background-color: #f37021; color: white; text-align: center; padding: 20px; }
+        .container { width: 80%; margin: auto; }
+        .product-list { background: white; padding: 20px; margin: 20px 0; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .product { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #ddd; }
+        a.button { display: inline-block; background: #00843D; color: white; padding: 10px; text-decoration: none; border-radius: 5px; }
+        a.button:hover { background: #006B2D; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SuperSaver Grocery - Produce</h1>
+        <a href="index.html" class="button">Back to Home</a>
+    </header>
+    
+    <div class="container">
+        <h2>Fresh Produce</h2>
+        <div class="product-list">
+            <div class='product'><span>Apples (per lb) - $1.49</span></div>
+            <div class='product'><span>Bananas (per lb) - $0.69</span></div>
+            <div class='product'><span>Carrots (1lb bag) - $1.29</span></div>
+            <div class='product'><span>Broccoli (per lb) - $2.49</span></div>
+            <div class='product'><span>Tomatoes (per lb) - $2.99</span></div>
+            <div class='product'><span>Oranges (each) - $0.89</span></div>
+            <div class='product'><span>Spinach (bag) - $3.49</span></div>
+            <div class='product'><span>Potatoes (5lb bag) - $4.99</span></div>
+        </div>
+    </div>
+</body>
+</html>
