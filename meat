@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meat - SuperSaver Grocery</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+        header { background-color: #f37021; color: white; text-align: center; padding: 20px; }
+        .container { width: 80%; margin: auto; }
+        .product-list { background: white; padding: 20px; margin: 20px 0; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .product { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #ddd; }
+        a.button { display: inline-block; background: #00843D; color: white; padding: 10px; text-decoration: none; border-radius: 5px; }
+        a.button:hover { background: #006B2D; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SuperSaver Grocery - Meat</h1>
+        <a href="index.html" class="button">Back to Home</a>
+    </header>
+    
+    <div class="container">
+        <h2>Meat & Poultry</h2>
+        <div class="product-list">
+            <div class='product'><span>Chicken Breast (per lb) - $4.99</span></div>
+            <div class='product'><span>Ground Beef (1lb) - $5.49</span></div>
+            <div class='product'><span>Bacon (12oz) - $5.99</span></div>
+            <div class='product'><span>Hot Dogs (8ct) - $3.49</span></div>
+            <div class='product'><span>Salmon (per lb) - $8.99</span></div>
+            <div class='product'><span>Turkey (whole, per lb) - $2.79</span></div>
+            <div class='product'><span>Sausage Links (1lb) - $4.99</span></div>
+            <div class='product'><span>Ham (per lb) - $6.49</span></div>
+        </div>
+    </div>
+</body>
+</html>
