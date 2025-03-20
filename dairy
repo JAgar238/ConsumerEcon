@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dairy - SuperSaver Grocery</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+        header { background-color: #f37021; color: white; text-align: center; padding: 20px; }
+        .container { width: 80%; margin: auto; }
+        .product-list { background: white; padding: 20px; margin: 20px 0; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .product { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #ddd; }
+        a.button { display: inline-block; background: #00843D; color: white; padding: 10px; text-decoration: none; border-radius: 5px; }
+        a.button:hover { background: #006B2D; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SuperSaver Grocery - Dairy</h1>
+        <a href="index.html" class="button">Back to Home</a>
+    </header>
+    
+    <div class="container">
+        <h2>Dairy Products</h2>
+        <div class="product-list">
+            <div class='product'><span>Milk (1 gal) - $3.99</span></div>
+            <div class='product'><span>Cheese (8oz) - $2.99</span></div>
+            <div class='product'><span>Eggs (12ct) - $2.49</span></div>
+            <div class='product'><span>Yogurt (single cup) - $1.19</span></div>
+            <div class='product'><span>Butter (1lb) - $4.99</span></div>
+            <div class='product'><span>Cream Cheese (8oz) - $2.79</span></div>
+            <div class='product'><span>Whipped Cream (can) - $3.49</span></div>
+            <div class='product'><span>Sour Cream (16oz) - $2.59</span></div>
+        </div>
+    </div>
+</body>
+</html>
